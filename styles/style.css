@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#020617 ;
+    padding-top: 14rem;
+}
+
+.tabs{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.tabs__container{
+    display: flex;
+    position: relative;
+    gap: 2rem;
+}
+
+.tabs__tab{
+    padding: 8px;
+    font-size: 1rem;
+    background: none;
+    color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+}
+
+.tabs__smart-bar{
+    height: 3px;
+    background-color: #f1f1ff;
+    border-radius: 99px;
+    
+    box-shadow: #aa9dffa0 0px 25px 50px -12px;
+    transition: transform 0.2s ease-out,  width 0.2s ease-out;
+}
